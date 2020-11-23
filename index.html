@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../tarea2/tarea2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <title>Tarea 2</title>
+</head>
+<body>
+    <h1>TAREA N°2</h1>
+    <h2>Jean González</h2>
+        <ul>
+        <li>Una propiedad de tipo function llamada llamarAlerta, que reciba 1 parámetro y que al ejecutarse levante una alerta en el browser con el mensaje entregado como parámetro</li>
+        <button type="button" onclick="probar1()">Probar 1</button>
+            
+        <li>Una propiedad de tipo function llamada esHttps, que no reciba parámetros y que al ejecutarse:
+        Esta función debe modificar otra propiedad del objeto llamada esSegura, dependiendo si es true o false, si la url actual es https o no
+        Esta función debe retornar true o false dependiendo si la url es https o no
+        </li>
+        <button type="button" onclick="probar2()">Probar 2</button>
+        <li>Una propiedad de tipo function llamada eliminarMascota, que reciba el 1 parámetro como el tipo de la mascota a eliminar
+        Esta función debe buscar según el parámetro dentro del arreglo definido anteriormente llamado mascotas y eliminar el tipo de mascota
+        Esta función debe retornar el arreglo actual</li>
+        <button type="button" onclick="probar3()">Probar 3</button>
+        <li>Una propiedad de tipo function llamada eliminarUltimaMascota, que no reciba parámetros y que al ejecutarse:
+            Esta función debe eliminar el tipo de mascota al final del arreglo definido anteriormente llamado mascotas
+            Esta función debe retornar el arreglo actual</li>
+            <button type="button" onclick="probar4()">Probar 4</button>
+        <li>Una propiedad de tipo function llamada agregarMascota, que reciba el 1 parámetro como el tipo de nueva mascota a agregar
+            Esta función debe agregar la nueva mascota al final del arreglo definido anteriormente llamado mascotas
+            Esta función debe retornar el arreglo actual</li>
+            <button type="button" onclick="probar5()">Probar 5</button>
+            <li>Una propiedad de tipo function llamada contadorMascotas, que no reciba parámetros y que al ejecutarse:
+                Esta función debe contar dentro del arreglo cuantos tipos de mascotas en su definición terminan en os, por ejemplo Perros termina en os
+                Guardar el resultado en una variable
+                La función debe retornar un string o texto, que diga En el arreglo hay 3 mascotas que terminan con 'os'</li>
+                <button type="button" onclick="probar6()">Probar 6</button>
+        </ul>
+        <h2>Resultados</h2>
+        <div id="resultados"></div>
+    
+</body>
+</html>
