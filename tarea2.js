@@ -52,7 +52,6 @@ var objeto = {
         return "En el arreglo hay " + contador + " mascotas que terminan con 'os'";
         
     }
-
 }
 
 
